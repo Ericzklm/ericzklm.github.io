@@ -1,0 +1,173 @@
+
+
+body {
+	background:#F2F2F2;
+	color:#555555;
+	font-family:Lato, Helvetica;
+	text-shadow: -.15px .15px 1px #666666;
+}
+
+h1,h2,p {
+	font-family:Lato light, Helvetica;
+	color:#000000;
+	text-shadow: -.25px .25px 1px #666666;
+}
+
+
+div.info {
+	position: fixed;
+ 	left: 45%;
+ 	top: 17.5%;
+ 	transform: translate(0%, 20%);
+	color:#191919;
+	font-family:Lato, Helvetica;
+	font-size: 20px;
+	text-shadow: -.15px .15px 1px #666666;
+	width: 27%;
+    word-wrap: break-word;
+}
+
+
+
+
+/*
+#links img{
+	
+	position: fixed;
+ 	left: 50%;
+ 	top: 80%;
+ 	transform: translate(0%, 50%);
+
+	float: left;
+}
+*/
+a.links {
+	padding: 0px 4px;
+	display: inline;
+}
+
+img.link1 {
+	position: fixed;
+	left: 50%;
+	top: 85%;
+	transform: translate(-50%, 0%);
+}
+img.link2 {
+	position: fixed;
+	left: 50%;
+	top: 85%;
+	transform: translate(-175%, 0%);
+}
+img.link3 {
+	position: fixed;
+	left: 50%;
+	top: 85%;
+	transform: translate(75%, 0%);
+}
+img.link4 {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+#main img{
+ 	position: fixed;
+ 	left: 26.4%;
+ 	top: 17.5%;
+ 	transform: translate(0%, 50%);
+ 	box-shadow: 0px 0px 6px #eeeeee;
+ 	border-style: solid;
+  	border-color: #dddddd;
+}
+#main topic {
+	background-color:black;
+	color:white;
+	padding:100px;
+	/*
+	position: fixed;
+ 	left: 26.4%;
+ 	top: 17.5%;
+ 	transform: translate(0%, 20%);
+	font-family:Lato light, Helvetica;
+	color:#191919;
+	font-size: 100%;
+	text-shadow: -.25px .25px 1px #666666;
+*/
+}
+#main block {
+	background-color: white ;
+  	padding: 15% 25%;
+
+ 	position: fixed;
+ 	left: 50%;
+ 	top: 17.5%;
+ 	 transform: translate(-50%, 0%);
+
+ 	box-shadow: 0px 0px 6px #eeeeee;
+ 	border-style: solid;
+  	border-color: #dddddd;
+}
+
+/*
+strong, a {
+	color:white;
+}
+*/
+.button {
+  color: black;
+}
+
+.button:hover {
+  background-color: #303030;
+  color: white;
+}
+
+#navbar { 
+	background-color:#303030;
+	padding: 0px 0px;
+	margin: 0;
+	overflow: hidden;
+}
+
+#navbar strong, a.CV, a.projects, a.contact, a.index {
+	background-color:#303030;
+	color:white;
+	font-size: 16px;
+	text-align: center;
+	text-shadow: -.25px .25px 1px #666666;
+	text-decoration: none;
+	padding: 15px 16px;
+	float: right;
+}
+
+#navbar img {
+	width: 48px;
+    height: auto;
+
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+    padding: 0px 8px;
+    float: left;
+}
+
+#navbar reg {
+	color:white;
+	font-size: 16px;
+	text-shadow: -.25px .25px 1px #666666;
+	text-decoration: none;
+	padding: 15px 0px;
+	float: left;
+
+}
+
+#navbar a:hover { 
+	background-color: #191919;
+	padding:15px 16px;
+}
+
+#navbar strong.current { 
+	background-color:#191919;
+}
